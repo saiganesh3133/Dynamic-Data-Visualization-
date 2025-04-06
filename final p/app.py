@@ -164,7 +164,7 @@ def detect_columns(df, candidates):
 @st.cache_data
 def load_default_data():
     try:
-        return pd.read_csv("healthcare.csv")
+        return pd.read_csv("final p\healthcare.csv")
     except FileNotFoundError:
         logging.info("Default dataset not found, creating sample data")
         data = {
